@@ -18,7 +18,7 @@ export type ToneUser = {
   userId: string
   display: string
   description: string
-  colors: [string, string]
+  colors: string[]
   socials: UserSocials
   location: string
   avatar: UserAvatar
